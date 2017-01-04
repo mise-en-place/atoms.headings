@@ -1,11 +1,12 @@
 // ==========================================================================
-// HEADINGS
+// Headings Atom
 // ==========================================================================
+
 /*doc
 ---
 title: Headings
-name: 1_headings
-category: quarks
+name: headings
+category: atoms
 ---
 
 Base styles for headings. Headings generally get a bit bigger at larger breakpoints
@@ -28,8 +29,9 @@ To force one heading (or any other element) to appear like another size (to pres
 ```
 */
 
-$_heading-font-size-breakpoint: medium;
+// @TODO should this be extracted out and redone in YML?
 
+$_heading-font-size-breakpoint: medium;
 
 $_headings: (
     h1: (
@@ -144,9 +146,9 @@ h6, .h6 {
 /*doc
 ---
 title: Meta heading
-name: 2_meta_heading
-category: quarks
-parent: 1_headings
+name: meta_heading
+category: atoms
+parent: headings
 ---
 
 This special heading is very small and used above meta lists
@@ -155,12 +157,6 @@ This special heading is very small and used above meta lists
 <h4 class="h--meta">Course Information</p>
 ```
 */
-
-
-
-//
-// Special headings
-// ==========================================================================
 
 .h--meta {
     @include font-scale(xxsmall, type-config(headings-family));
@@ -172,13 +168,12 @@ This special heading is very small and used above meta lists
 }
 
 
-
 /*doc
 ---
 title: Wrapped heading
-name: 2_wrapped_heading
-category: quarks
-parent: 1_headings
+name: wrapped_heading
+category: atoms
+parent: headings
 ---
 
 This helper class is used when a heading is wrapped in a container that means it should not have bottom spacing
@@ -189,7 +184,7 @@ This helper class is used when a heading is wrapped in a container that means it
         <h1 class="h--wrapped
                     cell-t50 cell-b30
                     cell-t60--medium cell-b50--medium
-                    cell-t70--large cell-b60--large">Courses &amp; apprenticeships</h1>
+                    cell-t70--large cell-b60--large">Lorem ipsum dolor sit amet</h1>
     </div>
 </div>
 ```
