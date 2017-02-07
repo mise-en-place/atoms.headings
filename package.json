@@ -18,5 +18,12 @@
     "url": "https://github.com/mise-en-place/atoms.headings.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.rem-calc": "github:mise-en-place/tools.rem-calc",
+    "mep-tools.font-scale": "github:mise-en-place/tools.font-scale",
+    "mep-tools.type-config": "github:mise-en-place/tools.type-config",
+    "mep-tools.palette": "github:mise-en-place/tools.palette",
+    "breakpoint-sass": "^2.7.1"
+  }
 }

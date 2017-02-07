@@ -31,6 +31,12 @@ To force one heading (or any other element) to appear like another size (to pres
 
 // @TODO should this be extracted out and redone in YML?
 
+@import "tool-rem-calc";
+@import "tool-font-scale";
+@import "tool-type-config";
+@import "tool-palette";
+@import "breakpoint";
+
 $_heading-font-size-breakpoint: medium;
 
 $_headings: (
