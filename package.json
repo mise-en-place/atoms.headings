@@ -5,7 +5,7 @@
   "main": "stylesheets/_headings.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "headings",
+    "name": "atom-headings",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
