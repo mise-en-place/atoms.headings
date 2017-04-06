@@ -1,15 +1,9 @@
 {
   "name": "mep-atoms.headings",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Base atom for headings",
   "main": "stylesheets/_headings.scss",
-  "eyeglass": {
-    "needs": "^1.0.0",
-    "name": "atom-headings",
-    "exports": "eyeglass-exports.js"
-  },
   "keywords": [
-    "eyeglass-module",
     "sass",
     "mise-en-place"
   ],
